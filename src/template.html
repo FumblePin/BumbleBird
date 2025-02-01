@@ -3,46 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Customizable Icons</title>
-    <script src="https://your-cdn-link/icons-cdn.js"></script> <!-- Your CDN link -->
-    <link rel="stylesheet" href="https://your-cdn-link/icon.css">
+    <title>Custom Icons</title>
+
+    <!-- Link to your CDN -->
+    <link rel="stylesheet" href="https://your-cdn-link/cdn/icon.css"> 
+
+    <style>
+        /* User-defined styles */
+        i {
+            font-size: 24px;  /* Change size */
+            color: black;  /* Change color */
+        }
+    </style>
 </head>
 <body>
-    <h2>Customize Icons</h2>
-    <div>
-        <label for="icon-size">Icon Size:</label>
-        <input type="range" id="icon-size" min="10" max="100" value="24" />
-        <span id="size-display">24px</span>
-    </div>
-    <div>
-        <label for="icon-color">Icon Color:</label>
-        <input type="color" id="icon-color" value="#000000" />
-    </div>
 
-    <div>
-        <i class="i-arrow-up"></i>
-        <i class="i-arrow-down"></i>
-        <i class="i-arrow-left"></i>
-        <i class="i-arrow-right"></i>
-    </div>
+    <i class="i-arrow-up"></i>
+    <i class="i-arrow-down"></i>
+    <i class="i-arrow-left"></i>
+    <i class="i-arrow-right"></i>
 
-    <script>
-        // Update size display and call changeIconStyles when slider is moved
-        const sizeSlider = document.getElementById('icon-size');
-        const sizeDisplay = document.getElementById('size-display');
-        
-        sizeSlider.addEventListener('input', function() {
-            sizeDisplay.textContent = sizeSlider.value + 'px';
-            changeIconStyles(sizeSlider.value + 'px', document.getElementById('icon-color').value);
-        });
-
-        // Change color when color picker is used
-        const colorPicker = document.getElementById('icon-color');
-        
-        colorPicker.addEventListener('input', function() {
-            changeIconStyles(sizeSlider.value + 'px', colorPicker.value);
-        });
-    </script>
 </body>
 </html>
-
