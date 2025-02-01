@@ -1,0 +1,30 @@
+/* icons.css */
+
+/* Set the font for icon fonts */
+.icon {
+  font-family: 'Material Icons', sans-serif; /* or FontAwesome */
+  font-size: 24px;
+  color: #333; /* default color */
+}
+
+/* Specific styles for different sizes */
+.icon-small {
+  font-size: 16px;
+}
+
+.icon-medium {
+  font-size: 24px;
+}
+
+.icon-large {
+  font-size: 32px;
+}
+
+/* Example of using an icon */
+.icon-home:before {
+  content: "\f015"; /* Unicode for home icon in FontAwesome */
+}
+
+.icon-settings:before {
+  content: "\f013"; /* Unicode for settings icon in FontAwesome */
+}
