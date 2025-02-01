@@ -1,11 +1,21 @@
-/* icon.css */
-.i-arrow-up, .i-arrow-down, .i-arrow-left, .i-arrow-right {
-    display: inline-block;
-    width: 24px;
-    height: 24px;
-    background-size: contain;
+/* Default icon size and color variables */
+:root {
+    --icon-size: 24px;  /* Default size */
+    --icon-color: black;  /* Default color */
 }
 
+/* Icon style for all arrow icons */
+.i-arrow-up, .i-arrow-down, .i-arrow-left, .i-arrow-right {
+    display: inline-block;
+    width: var(--icon-size);
+    height: var(--icon-size);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    fill: var(--icon-color);  /* Apply color to the icon */
+}
+
+/* Each arrow icon's background */
 .i-arrow-up {
     background-image: url('../Icon/Arrows/arrow-up.svg');
 }
