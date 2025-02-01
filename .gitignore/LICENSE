@@ -1,1 +1,14 @@
 
+---
+
+### Summary of the Process:
+
+1. **Organize the Files**: Organize your SVG icons, CSS, JavaScript, and HTML templates in the right folder structure.
+2. **Create `icons-cdn.js`**: The JavaScript file that dynamically adds the styles to the page.
+3. **Host the Files**: Upload the JavaScript and SVG icons to a CDN service (GitHub Pages, S3, etc.).
+4. **Usage**: Users can include the script tag in their HTML and use `<i>` tags with the corresponding icon classes.
+
+This setup will allow you to serve your icons via CDN, making it easy for anyone to integrate your icons into their projects.
+
+Let me know if you need any further clarifications! 🚀
+
