@@ -1,8 +1,8 @@
 .pointed-arrow-down-fill {
-  display: inline-block;
-  width: 24px;
-  height: 24px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-image: url('https://cdn.jsdelivr.net/gh/FumblePin/BumbleBird@main/icons/Arrows/pointed-arrow-down-fill.svg');
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('https://cdn.jsdelivr.net/gh/FumblePin/BumbleBird@main/icons/Arrows/pointed-arrow-down-fill.svg');
 }
