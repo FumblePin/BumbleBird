@@ -37,7 +37,7 @@
 
 .bb-icon::before {
   content: "\e900"; /* Correct Unicode for home icon */
-  color: black; /* Ensure icon color */
+  color: transparent; /* Ensure icon color */
   display: inline-block;
   width: auto;
   height: auto;
