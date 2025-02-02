@@ -1,0 +1,45 @@
+/* Load the custom icon font */
+@font-face {
+  font-family: 'BumbleBirdIcons';
+  src: url('BumbleBirdIcons.woff') format('woff'),
+       url('BumbleBirdIcons.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Base class for all icons */
+.bb-icon {
+  display: inline-block;
+  font-family: 'BumbleBirdIcons';
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  speak: none;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+/* Icon classes mapped to Unicode from font */
+.bb-home::before {
+  content: "\e900"; /* Unicode from font */
+}
+
+.bb-search::before {
+  content: "\e901"; /* Unicode from font */
+}
+
+/* SVG-based icons */
+.bb-home {
+  background: url('home.svg') no-repeat center;
+  background-size: contain;
+  width: 24px;
+  height: 24px;
+}
+
+.bb-search {
+  background: url('search.svg') no-repeat center;
+  background-size: contain;
+  width: 24px;
+  height: 24px;
+}
