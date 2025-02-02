@@ -18,6 +18,13 @@
   speak: none;
   line-height: 1;
   vertical-align: middle;
+  
+  background: none; /* Remove any background */
+  border: none; /* Remove any border */
+  box-shadow: none; /* Remove any box shadow */
+  padding: 0;
+  margin: 0;
+  text-align: center;
 }
 
 /* Icon classes mapped to Unicode from font */
