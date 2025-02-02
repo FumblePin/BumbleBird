@@ -1,0 +1,13 @@
+
+---
+
+## **📌 Step 7: Add a `.gitignore` File**  
+This prevents unnecessary files from being committed to **GitHub**.
+
+📄 **File Path:** `.gitignore`  
+```txt
+.DS_Store
+node_modules/
+*.log
+Icon/*.woff
+Icon/*.ttf
