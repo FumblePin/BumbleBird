@@ -25,7 +25,15 @@
   padding: 0;
   margin: 0;
   text-align: center;
+  font-size: 24px; /* Set a proper size */
+  width: auto;
+  height: auto;
 }
+
+.bb-icon::before {
+  color: red; /* Apply color to the actual icon */
+}
+
 
 /* Icon classes mapped to Unicode from font */
 .bb-home::before {
