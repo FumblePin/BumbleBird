@@ -1,3 +1,7 @@
+* {
+  outline: none !important;
+  border: none !important;
+}
 /* Load the custom icon font */
 @font-face {
   font-family: 'IcoMoon';
@@ -16,11 +20,12 @@
   font-variant: normal;
   text-transform: none;
   speak: none;
-  line-height: 0;
+  line-height: 1;
   vertical-align: middle;
   
   background: none; /* Remove any background */
   border: none; /* Remove any border */
+  outline: none;
   box-shadow: none; /* Remove any box shadow */
   padding: 0;
   margin: 0;
@@ -31,7 +36,13 @@
 }
 
 .bb-icon::before {
-  color: red; /* Apply color to the actual icon */
+  content: "\e900"; /* Correct Unicode for home icon */
+  color: black; /* Ensure icon color */
+  display: inline-block;
+  width: auto;
+  height: auto;
+  font-size: 24px; /* Adjust icon size */
+  text-decoration: none;
 }
 
 
